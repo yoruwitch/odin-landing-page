@@ -5,7 +5,7 @@ html {
 }
 
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -24,6 +24,7 @@ nav a {
     margin: 5px;
     color: white;
     font-size: 20px;
+    
 }
 
 nav a:hover {
@@ -46,7 +47,18 @@ nav li {
 
 .header {
     display: flex;
-    justify-self: flex-end;
     width: 500px;
     height: 300px;
+}
+
+.header-container h1 {
+    margin: 10px 0px;
+    margin-left: 300px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
 }
