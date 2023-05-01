@@ -18,6 +18,10 @@ body h2 {
     font-family: "Playfair Display", serif;
 }
 
+body p {
+    font-size: 18px;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -147,13 +151,50 @@ nav li {
     border-radius: 5px;
 }
 
-/*----------------------About us---------------------------*/
+.product img:hover {
+    box-shadow: 16px 16px 16px 8px rgba(200, 0, 0, 0.2);
+}
+
+/*----------------------About me---------------------------*/
+
+#about-me h2 {
+    margin: 20px 0px;
+}
+
+#about-me p {
+    font-style: italic;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
 
 /*-----------------Where to find us----------------*/
 
+#where-to-find-us h2 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+#where-to-find-us p {
+    margin: 20px;
+}
+
 #where-to-find-us img {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-self: center;
+    margin-left: 250px;
+    justify-content: center;
+    height: 500px;
+}
+
+
+/*-------------------Footer------------------------------*/
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+footer p a {
+    text-decoration: none;
+    color: #6b121a;
+    font-style: italic;
 }
